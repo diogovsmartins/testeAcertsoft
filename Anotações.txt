@@ -1,0 +1,9 @@
+Minhas notas:
+
+Utilizar a estrutura MVC para o projeto
+W3schools pra referencia junto de algum repositório do github.
+testar XAMPP
+dica do vini fazer usando API
+fazer a trilha PHP no alura no tempo livre do trampo
+
+02:32-23/07/2021-Consegui terminar a integração do banco de dados e fazer a parte de inserção do crude, faltam read, delete e update.
