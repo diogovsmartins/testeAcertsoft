@@ -1,0 +1,26 @@
+#wrapper{
+    margin:10% 0% 0% 35%;
+}
+#usersTable{
+    border: 1px solid rgb(15, 15, 15);
+    background-color: rgb(23, 160, 153);
+    color: white;
+}
+.tableHeaders{
+    font-size: 25px;
+    color: rgb(15, 15, 15) ;
+}
+.tableRow{
+    border: 1px solid lightgreen;
+    font-size: 20px;
+}
+a{
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    background-color: rgb(238, 26, 26);
+    border-radius: 5px;
+    border: 1px solid black;
+}
+a:hover{
+   background-color: white;
+}
