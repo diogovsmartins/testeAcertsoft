@@ -1,17 +1,18 @@
-<link rel="stylesheet" href="../styles/showUser.css">
 <?php function listUsers($list){?>
+<link rel="stylesheet" href="../styles/showUser.css">
+<h1 id="tittle">Lista de usuários</h1>
 <div id="wrapper">
     <table id="usersTable">
         <thead>
             <tr>
                 <th class="tableHeaders">
-                    <b>ID</b>
+                    ID
                 </th>
                 <th class="tableHeaders">
-                    <b>Email</b>
+                    Email
                 </th>
                 <th class="tableHeaders">
-                   <b>Password</b>
+                   Password
                 </th>
                 <th class="tableHeaders">
                     Edit
@@ -24,7 +25,7 @@
                 <td class="tableRow"><?php echo $row['id']; ?></td>
                 <td class="tableRow" ><?php echo $row['email']; ?> </td>
                 <td class="tableRow"><?php echo $row['password'];?></td>
-                <td class="rableRow"><a href="../controller/update_single.php?id=<?php echo $row['id']; ?>">Edit</a></td>
+                <td class="tableRow"><button class="buttonEdit"><a href="../controller/update_single.php?id=<?php echo $row['id']; ?>">Edit</a></button></td>
             </tr>
         <?php endforeach; ?>
         </tbody>

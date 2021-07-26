@@ -1,0 +1,35 @@
+*{
+    margin: 0 auto;
+}
+#header{
+    min-height: 10vh;
+    width: 100vw;
+    color: rgb(39, 38, 38);
+    text-align: center ;
+}
+body{
+    background-color: rgb(212, 227, 236);
+    text-align: center;
+}
+#divForm{
+    margin: 0vw 25vw 0vw 25vw;
+    background-color:rgba(43, 41, 41, 0.2);
+    min-height: 30vh;
+    border: 1px solid rgb(21, 120, 133); 
+    padding-top:30px;
+}
+#indexButton{
+    color: rgb(255, 255, 255);
+    background-color:rgb(118, 123, 128);
+    min-width: 60px;
+    min-height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid rgb(21, 120, 133);
+    margin-top: 10px;
+}
+#indexButton>a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
